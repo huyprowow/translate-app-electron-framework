@@ -1,7 +1,8 @@
 {
-  "name": "Electron",
+  "name": "Translate",
   "version": "1.0.0",
-  "description": "",
+  "author": "Huy <huyprowow@gmail.com> (https://huyprowow.github.io/)",
+  "description": "app translate",
   "main": "index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -9,8 +10,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Translate"],
   "license": "ISC",
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.63",
@@ -18,10 +18,12 @@
     "@electron-forge/maker-rpm": "^6.0.0-beta.63",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.63",
     "@electron-forge/maker-zip": "^6.0.0-beta.63",
-    "electron": "^17.1.2"
+    "electron": "^17.3.1"
   },
   "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1",
     "electron-squirrel-startup": "^1.0.0",
+    "path": "^0.12.7",
     "python-shell": "^3.0.1"
   },
   "config": {
